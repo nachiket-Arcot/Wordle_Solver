@@ -53,6 +53,6 @@ while True:
     for result in words:
         resultlist = list(result)
         if all(resultlist[pos] == letter for pos, letter in correct_position.items()) and all(item in resultlist for item in misplacedlist) and  not set(incorrectlist) & set(resultlist):
-            filtered_word.append(''.join(resultlist))
+            filtered_word.append(result) 
 
     print(filtered_word)
