@@ -1,1 +1,9 @@
-Have you always struggled in finding the word in the daily wordle game ? Using a wordlist this program can help you find the word in the NYT wordle game. You just have to input the letters that are in the correct position, in the word but not in the correct position and letters that aren't in the word and the program will narrow down possible words. I did use this program to solve actual wordle games and so far it has been succesful. As of now this program is command line based but I am currently working on making it a GUI basically a Visual Interface and there are still some issues that I need to fix. 
+Have you ever struggled to find the right word in the daily NYT Wordle game? This program uses a wordlist to help you narrow down possible words and find the correct answer. Simply input:
+
+Letters in the correct position
+Letters in the word but in the wrong position
+Letters not in the word
+The program will filter potential solutions based on your input. I have successfully used it to solve actual Wordle games.
+
+Currently, the program runs on the command line, but I am working on developing a graphical user interface (GUI) for a more user-friendly experience. There are still some issues to fix, but improvements are underway!
+
